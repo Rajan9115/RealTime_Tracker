@@ -18,7 +18,7 @@ if(navigator.geolocation){
 const map = L.map("map").setView([0,0],15);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-   { attribution:"Tracking app"}
+   { attribution:"Tracking with Rj"}
 ).addTo(map)
 
 const markers = {};
